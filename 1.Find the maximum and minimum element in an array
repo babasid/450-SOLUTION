@@ -1,0 +1,73 @@
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int n,i,max;
+    cout<<"enter the value of n:";
+    cin>>n;
+    cout<<"the value of n : "<<n;
+    int A[n];
+    cout<<"enter the values in array:"<<endl;
+    
+    
+    for(i=0;i<n;i++){
+        cin>>A[i];
+        
+    }
+        for(i=0;i<n;i++){
+        cout<<A[i]<<" ";
+        
+    }
+    max=A[0];
+    for(i=0;i<n;i++){
+        if(A[i]>max){
+            max=A[i];
+        }
+    }
+    cout<<"THE MAX NUMBER IS "<<max;
+    
+}
+
+
+/*FOR MINIMUM*/
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int n,i,min;
+    cout<<"enter the value of n:";
+    cin>>n;
+    cout<<"the value of n : "<<n;
+    int A[n];
+    cout<<"enter the values in array:"<<endl;
+    
+    
+    for(i=0;i<n;i++){
+        cin>>A[i];
+        
+    }
+        for(i=0;i<n;i++){
+        cout<<A[i]<<" ";
+        
+    }
+    min=A[0];
+    for(i=0;i<n;i++){
+        if(A[i]<min){
+            min=A[i];
+        }
+    }
+    cout<<"THE MIN NUMBER IS "<<min;
+    
+}
