@@ -1,0 +1,34 @@
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int n,i,j,min;
+    cout<<"enter the value of n:";
+    cin>>n;
+    cout<<"the value of n : "<<n;
+    int A[n];
+    cout<<"enter the values in array:"<<endl;
+    
+    
+    for(i=0;i<n;i++){
+        cin>>A[i];
+        
+    }
+        for(i=0;i<n;i++){
+        cout<<A[i]<<" ";
+        
+    }
+    cout<<"the reverse order is";
+    for(j=n-1;j>-1;j--){
+        cout<<A[j]<<" ";
+    }
+    return 0;
+    
+    
+}
